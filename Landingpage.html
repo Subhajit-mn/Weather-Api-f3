@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="MainPage2">
+      <h2>Welcome To The Weather App</h2>
+      <p id="text2">Here is your current location</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Application</title>
-    <link rel="stylesheet" href="weather.css">
-</head>
+      <div id="text3"></div>
 
-<body>
-    <div class="details">
-        <h1>Welcome To The Wreather App</h1>
-        <p>Here is your current location</p>
+      <iframe id="MapBox" src="" frameborder="0"></iframe>
     </div>
-    
-    <div id="locationInfo" class="hidden">
-        <div id="latitude" class="location-info-item"></div>
-        <div id="longitude" class="location-info-item"></div>
+    <div class="WeatherDetails">
+      <div id="weatherdataText">Your Weather Data</div>
+      <div id="box">
+        
+      </div>
     </div>
-    
-    <div id="map"></div>
-    <div id="weatherData" class="hidden"></div>
+
+    <footer>Made with ❤ by Subhadeep Hazra</footer>
+
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
